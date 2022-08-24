@@ -1,4 +1,7 @@
 # Arquitectura-de-Software
+
+
+
 <html>
 
 <head>
@@ -16,14 +19,6 @@
         <li>Opcion 2</li>
     </ul>
     <h2>Tema 2</h2>
-
-
-
-
-    
-
-
-    
 
     <div id="centrar-tabla">
         <table id="tabla" border="2" cellspacing="5" height="200" >
