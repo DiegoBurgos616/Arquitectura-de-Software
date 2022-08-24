@@ -1,14 +1,11 @@
 # Arquitectura-de-Software
 
-  <table>  <tr> <th>Nombre</th> <th>Matricula</th> <th>Imagen</th> </tr>
-  <tr> <th>Jose Aviles </th> <th>12000892</th> <th>Imagen</th> </tr>
-  <tr> <th>Jose Aviles </th> <th>12000892</th> <th>Imagen</th> </tr>
-  <tr> <th>Paola Novelo</th> <th>20216401</th> <th>Imagen</th> </tr>  </table>
 
 
+Integrantes:
 
-
-
-
-
+| Nombre | Diego Burgos | Jose Aviles  | Paola Novelo  | ???????? | 
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Matricula  | A20216388  | A12000892 | A20216401 | ???????? | 
+| Imagen | <img src="Recursos/IMG_5641.JPG"  width="100" height="100" />  | <img src="Recursos/IMG_5639.JPG"  width="100" height="100" />  | <img src="Recursos/IMG_5640.JPG"  width="100" height="100" /> 
 
