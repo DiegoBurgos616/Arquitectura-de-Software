@@ -1,31 +1,9 @@
 # Arquitectura-de-Software
 
-
-        <table id="tabla" border="2" cellspacing="5" height="200" >
-
-   <tr>
-
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Matricula</th>
-            </tr>
-
-            <tr>
-                <td>Diego</td>
-                <TD>Alfonso</TD>
-                <td>Burgos</td>
-                <td>20216388</td>
-            </tr>
-
-            <tr>
-                <td>Pepe PXNDX</td>
-                <td>Qwerty</td>
-                <td>20216344</td>
-            </tr>
-
-            <tr>
-                <td>Hola Mundo</td>
-                <td>Shalala</td>
-                <td>20218366</td>
-            </tr>
-        </table>
+<html>
+                <table>  <tr> <th>Nombre</th> <th>Matricula</th> <th>Imagen</th> </tr>
+                <tr> <th>Diego Burgos </th> <th>20216388</th> <th>Imagen</th> </tr>
+                <tr> <th>Jose Aviles </th> <th>12000892</th> <th>Imagen</th> </tr>
+                <tr> <th>Paola Novelo</th> <th>20216401</th> <th>Imagen</th> </tr>  </table>
+       
+</html>
