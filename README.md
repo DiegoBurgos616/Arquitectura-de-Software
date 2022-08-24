@@ -6,4 +6,9 @@
                 <tr> <th>Jose Aviles </th> <th>12000892</th> <th>Imagen</th> </tr>
                 <tr> <th>Paola Novelo</th> <th>20216401</th> <th>Imagen</th> </tr>  </table>
        
+       
+       
+           <img src="/IMG_5639.JPG">
+
+       
 </html>
