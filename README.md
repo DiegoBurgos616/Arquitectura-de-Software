@@ -1,19 +1,9 @@
 # Arquitectura-de-Software
 
 
-
-<html>
-
-<head>
-
-
-</head>
-
-<body>
-
         <table id="tabla" border="2" cellspacing="5" height="200" >
-            <caption>Tabla 1. Lista de alumnos</caption>
-            <tr>
+
+   <tr>
 
                 <th>Nombre</th>
                 <th>Apellido</th>
@@ -39,9 +29,3 @@
                 <td>20218366</td>
             </tr>
         </table>
-    </div>
-
-
-</body>
-
-</html>
