@@ -4,7 +4,6 @@
 <head>
     <title>Mi codigo HTML Zzzz </title>
 
-    <link rel="stylesheet" href="estilo.css">
 
 </head>
 
@@ -20,17 +19,11 @@
 
 
 
-    <font size=9> Hola jajaja </font><br>
-    <font size=9 color="blue"> Zzzzz</font>
 
-    <br>
-    <img src="/WhatsApp Image 2022-08-22 at 6.23.36 PM.jpeg" width="300px">
-
-    <img src="WhatsApp Image 2022-08-22 at 5.58.52 PM.jpeg" width="300px"><br>
-    <img src="/WhatsApp Image 2022-08-22 at 6.06.43 PM.jpeg" width="300px">
+    
 
 
-    <h2> <a href="https://extranet.matematicas.uady.mx/enlinea/my/">ExtraNet</a></h2>
+    
 
     <div id="centrar-tabla">
         <table id="tabla" border="2" cellspacing="5" height="200" >
