@@ -1,8 +1,8 @@
 # Arquitectura-de-Software
 
+<h2>Repositorio GitHub del proyecto</h2>
 
-
-Integrantes:
+<h3>Integrantes:</h3>
 
 | Nombre | Diego Burgos | Jose Aviles  | Paola Novelo  | ???????? | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
