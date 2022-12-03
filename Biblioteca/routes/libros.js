@@ -7,5 +7,9 @@ const librosController=require("../controllers/librosController");
 
 
 router.get("/",librosController.index);
+router.get("/crear",librosController.crear);
+
+router.post("/",librosController.guardar);
+
 
 module.exports = router;
