@@ -1,0 +1,25 @@
+<%- include('../layouts/cabecera.ejs'); %>
+
+<form method="post" action="/libros">
+
+    <div class="form-group">
+      <label for="my-input">Nombre:</label>
+      <input type="text" name="nombre" id="" class="form-control" >
+     
+
+        <div class="form-group">
+          <label for="my-input">Imagen</label>
+          <input type="file" class="form-control-file" name="archivo" id="my-input"  >
+        </div>
+
+
+<button class="btn btn-primary" type="submit">Guardar</button>
+
+
+    </div>
+
+
+
+</form>
+
+<%- include('../layouts/pie.ejs'); %>
