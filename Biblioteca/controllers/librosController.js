@@ -8,7 +8,22 @@ module.exports = {
          console.log(datos);
          res.render("libros/index", { title: "Aplicacion", libros: datos });
       });
-   }
+   },
+ crear:function(req,res){
+   res.render("libros/crear");
+
+ },
+ guardar:function(req,res){
+    console.log(req.body);
+   console.log(req.file.filename);
+
+
+    libro.insertar(conexion, req.body,req.file,function (err) {
+       res.redirect("/libros");
+   });
+
+
+ }
 }
 
 
