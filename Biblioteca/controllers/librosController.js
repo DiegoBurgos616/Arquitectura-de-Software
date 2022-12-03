@@ -15,8 +15,10 @@ module.exports = {
  },
  guardar:function(req,res){
     console.log(req.body);
- 
-    libro.insertar(conexion, req.body,function (err) {
+   console.log(req.file.filename);
+
+
+    libro.insertar(conexion, req.body,req.file,function (err) {
        res.redirect("/libros");
    });
 
