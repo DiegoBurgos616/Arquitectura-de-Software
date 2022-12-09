@@ -1,25 +1,32 @@
 <%- include('../layouts/cabecera.ejs'); %>
 
-<form method="post" action="/libros" enctype="multipart/form-data">
 
-    <div class="form-group">
-      <label for="my-input">Nombre:</label>
-      <input type="text" name="nombre" id="" class="form-control" >
-     
-
+  <div class="card">
+     <div class="card-body">
+      <h4 class="card-title">Registro de nuevo libro</h4>
+      <p class="card-text">
+      
+        <form method="post" action="/libros" enctype="multipart/form-data">
         <div class="form-group">
-          <label for="my-input">Imagen</label>
-          <input type="file" class="form-control-file" name="archivo" id="my-input"  >
+          <label for="my-input">Nombre:</label>
+          <input type="text" name="nombre" id="" class="form-control">
+
+          <label for="my-input">Precio:</label>
+          <input type="text" name="precio" id="" class="form-control">
+
+          <div class="form-group">
+            <label for="my-input">Imagen</label>
+            <input type="file" class="form-control-file" name="archivo" id="my-input">
+          </div>
+          <button class="btn btn-success" type="submit">Guardar</button>
+          <a class="btn btn-primary" href="/libros"> Cancelar</a>
         </div>
-
-
-<button class="btn btn-primary" type="submit">Guardar</button>
-
-
+      </form>
+     
+    </p>
     </div>
+  </div>
 
 
 
-</form>
-
-<%- include('../layouts/pie.ejs'); %>
+  <%- include('../layouts/pie.ejs'); %>
