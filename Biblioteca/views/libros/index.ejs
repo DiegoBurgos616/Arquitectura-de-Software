@@ -1,52 +1,72 @@
-
 <%- include('../layouts/cabecera.ejs'); %>
 
-        <br>
-        <br>
-        <a href="/libros/crear" class="btn btn-primary" type="button">Crear un nuevo libro</a>
-        <br>
-        <br>
+    <br>
+    <br>
+    <a href="/libros/crear" class="btn btn-primary" type="button">Crear un nuevo libro</a>
+    <br>
+    <br>
 
 
 
-        <table class="table table-striped">
-            <thead class="thead-dark ">
-                <tr>
-                    <th>#</th>
-                    <th>Nombre</th>
-                    <th>Imagen</th>
-                    <th>Acciones</th>
+    <table class="table table-striped">
+        <thead class="thead-dark ">
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Imagen</th>
+                <th>Acciones</th>
 
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <% for( let libro=0; libro < libros.length; libro++ ) { %>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <% for( let libro=0; libro < libros.length; libro++ ) { %>
 
-                        <td>
-                            <%=libros[libro].id %>
-                        </td>
-                        <td>
-                            <%=libros[libro].nombre %>
-                        </td>
-                        <td>
+                    <td>
+                        <%=libros[libro].id %>
+                    </td>
+                    <td>
+                        <%=libros[libro].nombre %>
+                    </td>
 
-<img class="img-thumnail" width="100" src=" images/<%=libros[libro].imagen %>" >
-                           
+                    <td>
+                        <%=libros[libro].precio %>
+                    </td>
+                    <td>
 
-
-                        </td>
-
-                        <td>
-                            Editar | Borrar
-                        </td>
-
-                </tr>
-
-                <% } %>
+                        <img class="img-thumnail" width="100" src=" images/<%=libros[libro].imagen %>">
 
 
 
-    </tbody>
+                    </td>
+
+                    <td>
+                        <div class="btn-group-vertical" role="group" aria-label="Vertical botton group">
+                            <form class="form-inline" method="get" action="/libros/editar/<%=libros[libro].id %>">
+
+                                <button class="btn btn-warning" type="submit"> Editar </button>
+
+                            </form>
+                        </div>
+                        |
+                        <div class="btn-group-vertical" role="group" aria-label="Vertical botton group">
+                            <form class="form-inline" method="post" action="/libros/eliminar/<%=libros[libro].id %>">
+
+                                <button class="btn btn-danger" type="submit"> Borrar </button>
+
+                            </form>
+                        </div>
+
+
+                    </td>
+
+            </tr>
+
+            <% } %>
+
+
+
+        </tbody>
     </table>
     <%- include('../layouts/pie.ejs'); %>
